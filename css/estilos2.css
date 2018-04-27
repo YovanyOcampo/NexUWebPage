@@ -1,0 +1,214 @@
+header img{
+  margin-bottom: 1px;
+  margin-left: 1em;
+  width: 7em;
+  float: left;
+}
+
+figure img {
+  width: 100%;
+}
+
+div figure {
+  width: 80%;
+}
+
+figure {
+  text-align: center;;
+}
+
+#p1 img{
+  filter: blur(10px);
+  transition-duration: 0.3s;
+}
+
+#p1 img:hover{
+  transform: rotate(10deg);
+  filter: drop-shadow(#82c3a6);
+}
+
+#p2 img{
+  transition-duration: 0.3s;
+  filter: grayscale(100%);
+}
+
+#p2 img:hover{
+  transform: rotate(10deg);
+  filter: drop-shadow(#82c3a6);
+}
+
+#p3 img{
+  transition-duration: 0.3s;
+  filter: sepia(90%);
+}
+
+#p3 img:hover{
+  transform: rotate(10deg);
+  filter: drop-shadow(#82c3a6);
+}
+
+#p4 img{
+  transition-duration: 0.3s;
+  filter: grayscale(100%);
+}
+
+#p4 img:hover{
+  transform: rotate(10deg);
+  filter: drop-shadow(#82c3a6);
+}
+
+#p5 img{
+  transition-duration: 0.3s;
+}
+
+#p5 img:hover{
+  transform: rotate(10deg);
+  filter: drop-shadow(#82c3a6);
+}
+
+#p6 img{
+  transition-duration: 0.3s;
+  filter: grayscale(100%);
+}
+
+#p6 img:hover{
+  transform: rotate(10deg);
+  filter: drop-shadow(#82c3a6);
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container div {
+  box-sizing: border-box;
+  min-width: 150px;
+}
+
+.c1 {
+  background-color: #f7f2f2;
+}
+
+.c2 {
+  background-color: #f7f2f2;
+}
+
+.c3 {
+  background-color: #f7f2f2;
+}
+
+.ca {
+  background-color: #f7f2f2;
+}
+
+.cb {
+  background-color: #f7f2f2;
+}
+
+.cc {
+  background-color: #f7f2f2;
+}
+
+.c4, .c5, .c6, .c7 {
+  text-align: left;
+  background-color: #C6d5c5;
+  border: 1px;
+}
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.c1, .c2, .c3, .ca, .cb, .cc {
+  width: 100%;
+}
+
+.c4, .c5, .c6, .c7 {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .c1, .c2, .c3, .ca, .cb, .cc  {
+    width: 33.33%;
+  }
+  .c4, .c5, .c6, .c7 {
+    width: 25%;
+  }
+}
+
+@-webkit-keyframes miAnimacion {
+
+}
+
+/***********Encabezado********************/
+#Encabezado {
+  margin: 0 auto;
+  padding: 2.5em 0 0 0;
+  background-color: #5b7989;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/***************h1**********************/
+#Encabezado h1 {
+  margin-left: 3em;
+  text-align: left;
+  font-size: 3em;
+  line-height: .6;
+  text-shadow: 2px 2px 2px #02010a;
+  color: white;
+}
+
+/********Nav Principal******************/
+#Encabezado nav {
+  background: #275390;
+  font-size: 1.143em;
+  height: 2.2em;
+  line-height: 30px;
+  margin: 0 auto 2em auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#Encabezado nav li {
+  float: left;
+  display: inline;
+  margin: 0;
+}
+
+#Encabezado nav a:link, #Encabezado nav a:visited {
+  display: inline-block;
+  height: 30px;
+  padding: 5px 1.5em;
+  text-decoration: none;
+  color: #fff;
+}
+
+#Encabezado nav a:hover, #Encabezado nav a:active{
+  background: #3399CC;
+  text-shadow: none !important;
+}
+
+#visited {
+  background: rgb(51, 153, 204);
+}
+
+/******************************************/
+
+
+/***********Pie de Página********************/
+footer {
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+background-color: #C6d5c5;
+text-align: center;
+font-size: 0.8em;
+}
+
+/*******************************************/
